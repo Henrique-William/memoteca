@@ -20,7 +20,7 @@ export class PensamentoComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  larguraPensament(): string{
+  larguraPensamento(): string{
     if(this.pensamento.conteudo.length >= 256) {
       return 'pensamento-g'
     }

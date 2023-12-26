@@ -8,7 +8,7 @@ import { Observable } from 'rxjs'
 })
 export class PensamentoService {
 
-  private readonly API = 'https://json-db-chi.vercel.app/'
+  private readonly API = 'https://json-db-chi.vercel.app/pensamentos'
 
   constructor(private http: HttpClient) { }
   
